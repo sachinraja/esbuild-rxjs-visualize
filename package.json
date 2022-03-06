@@ -1,0 +1,21 @@
+{
+  "name": "t",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build.js",
+    "analyze": "esbuild-visualizer --metadata ./metafile.json",
+    "ba": "pnpm build && pnpm analyze",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Sachin Raja <sachinraja2349@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "^0.14.25",
+    "esbuild-visualizer": "^0.3.1",
+    "rxjs": "^7.5.4"
+  }
+}
