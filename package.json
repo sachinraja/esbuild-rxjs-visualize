@@ -7,7 +7,7 @@
   "scripts": {
     "build": "node build.js",
     "analyze": "esbuild-visualizer --metadata ./metafile.json",
-    "ba": "pnpm build && pnpm analyze",
+    "ba": "npm run build && npm run analyze",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
